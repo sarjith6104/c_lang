@@ -1,0 +1,14 @@
+int main() {
+     int a;
+     float b;
+     char c;
+    char str1[100];
+    char str2[100];
+    scanf("%d %f %c %s %[^\n]",&a,&b,&c,str1,str2);
+    printf("Integer is %d\n",a);
+    printf("Float is %.2f\n",b);
+    printf("Character is %c\n",c);
+    printf("Strings are %s and %s\n",str1,str2);
+     
+    return 0;
+}
