@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    float n;
+    
+    scanf("%f",&n);
+    float rounded = floor(n * 100)/100;
+     printf("%.2f\n", rounded);
+    int a=floor(n);
+     printf("%.2f\n",n);
+    
+
+
+
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
