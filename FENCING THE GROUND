@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int length, breadth;
+    scanf("%d %d", &length, &breadth);
+    float perimeter = 2 * (length + breadth);
+    float area = length * breadth;
+    printf("Required length is %.2fm\n", perimeter);
+    printf("Required quantity of carpet is %.2fsqm\n", area);
+    
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
