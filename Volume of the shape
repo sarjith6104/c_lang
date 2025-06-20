@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    float lenght,width,height,radius;
+    scanf("%f%f%f%f", &lenght,&width,&height,&radius);
+
+    printf("Volume of Cubiod=%.2f\n",lenght*height*width);
+    printf("Volume of Cylinder=%.2f\n",((3.141592653589793238462643383279502884197*pow(radius,2)*height)*100)/100);
+
+
+
+    return 0;
+}
