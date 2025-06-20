@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main() {
+    float side, length, width, radius, base, height;
+    scanf("%f %f %f %f %f %f", &side, &length, &width, &radius, &base, &height);
+    printf("Area of Square=%.0f\n", side * side);
+    printf("Area of Rectangle=%.0f\n", length * width);
+    printf("Area of Circle=%.2f\n",floor((3.141592653589793238462643383279502884197 * radius * radius)*100)/100);
+    printf("Area of Triangle=%.0f\n", 0.5 * base * height);
+
+    return 0;
+}
