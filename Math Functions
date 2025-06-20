@@ -1,0 +1,23 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() {
+    float f;
+    int square, base, power;
+
+    scanf("%f", &f);
+    scanf("%d", &square);
+    scanf("%d", &base);
+    scanf("%d", &power);
+
+    printf("%d\n", (int)floor(f));
+    printf("%d\n", (int)ceil(f));
+    printf("%d\n", (int)sqrt(square));
+    printf("%d\n", (int)pow(base, power));
+    
+}
